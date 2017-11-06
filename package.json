@@ -1,0 +1,19 @@
+{
+  "name": "KnockoutOwlCarousel2",
+  "version": "0.1.0",
+  "description": "Knockout binding for OwlCarousel2",
+  "license": "MIT",
+  "author": "Oleksii Stepanov",
+  "dependencies": {
+    "knockout": ">=2.3.0",
+    "owl.carousel": ">2.0.0"
+  },
+  "bugs": {
+    "email": "sagerbox@gmail.com"
+  },
+  "keywords": [
+    "owlcarousel",
+    "knockout",
+    "binding"
+  ]
+}
