@@ -36,7 +36,7 @@
         update: function(element, valueAccessor,allBindings, viewModel, bindingContext){
             var template = ko.utils.domData.get(element,templateKey);
             ko.bindingHandlers.foreach.update(template,valueAccessor,allBindings,viewModel,bindingContext)
-            $(element).trigger('replace.owl.carousel',[$(template).children()]).trigger('refresh.owl.carousel');
+            $(element).trigger('replace.owl.carousel',[$($(template).html())]).trigger('refresh.owl.carousel');
         }
     };
     ko.expressionRewriting.bindingRewriteValidators['owlCarousel'] = false; // Can't rewrite control flow bindings
